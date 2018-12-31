@@ -2,6 +2,11 @@
   <action id="$Copy" />
   <action id="$Cut" />
   <action id="$Paste" />
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="u" />
+  </action>
   <action id="CheckinProject" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
@@ -11,6 +16,9 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
   <action id="Diff.ShowDiff" />
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="u" />
+  </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
@@ -49,6 +57,7 @@
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorSwapSelectionBoundaries" />
   <action id="EditorTextEnd">
@@ -318,6 +327,7 @@
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="JumpToLastChange" />
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
